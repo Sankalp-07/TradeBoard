@@ -22,25 +22,25 @@ function AppHeader() {
     <div className="AppHeader">
       <Image
         width={40}
-        src="https://yt3.ggpht.com/ytc/AMLnZu83ghQ28n1SqADR-RbI2BGYTrqqThAtJbfv9jcq=s176-c-k-c0x00ffffff-no-rj"
+        src=""
       ></Image>
-      <Typography.Title>Aamir's Dashboard</Typography.Title>
+      <Typography.Title>https://www.tradeboard.in</Typography.Title>
       <Space>
-        <Badge count={comments.length} dot>
-          <MailOutlined
+        <Badge  >
+          {/* <MailOutlined
             style={{ fontSize: 24 }}
             onClick={() => {
               setCommentsOpen(true);
             }}
-          />
+          /> */}
         </Badge>
-        <Badge count={orders.length}>
-          <BellFilled
+        <Badge >
+          {/* <BellFilled
             style={{ fontSize: 24 }}
             onClick={() => {
               setNotificationsOpen(true);
             }}
-          />
+          /> */}
         </Badge>
       </Space>
       <Drawer

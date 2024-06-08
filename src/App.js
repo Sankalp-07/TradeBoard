@@ -13,7 +13,7 @@ function App() {
         <SideMenu></SideMenu>
         <PageContent></PageContent>
       </div>
-      <AppFooter />
+      {/* <AppFooter /> */}
     </div>
   );
 }

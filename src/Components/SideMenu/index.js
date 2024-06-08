@@ -35,17 +35,32 @@ function SideMenu() {
             key: "/",
           },
           {
-            label: "Inventory",
+            label: "Quick Brand",
             key: "/inventory",
             icon: <ShopOutlined />,
           },
           {
-            label: "Orders",
+            label: "My Journal",
             key: "/orders",
             icon: <ShoppingCartOutlined />,
           },
           {
-            label: "Customers",
+            label: "Accountability Partner",
+            key: "/customers",
+            icon: <UserOutlined />,
+          },
+          {
+            label: "My Account",
+            key: "/customers",
+            icon: <UserOutlined />,
+          },
+          {
+            label: "Support",
+            key: "/customers",
+            icon: <UserOutlined />,
+          },
+          {
+            label: "Logout",
             key: "/customers",
             icon: <UserOutlined />,
           },

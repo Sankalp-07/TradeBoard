@@ -29,6 +29,7 @@ border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 .SideMenu{
     height: 100%;
+    width: 15%;
 }
 .SideMenuVertical{
     height: 100%;
